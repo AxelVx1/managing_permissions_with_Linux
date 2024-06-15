@@ -1,6 +1,14 @@
 # managing_permissions_with_Linux
 Using Linux commands in Bash Shell to manage users.
 
+# Glossary:
+1. [Checking File and Directory Details](#checking_file_and_directory_details)
+2. [Describing the Permission Strings](#describing_the_permission_strings)
+3. [Changing File Permissions](#changing_file_permissions)
+4. [Changing File Permissions on Hidden Files](#changing_file_permissions_on_hidden_files)
+5. [Changing Directory Permissions](#changing_directory_permissions)
+6. [Summary](#summary)
+
 # Scenario:
 
 To enhance our system's security, the research team at my organization needs to update the file permissions for specific files and directories within the "projects" directory. Currently, the permissions do not align with the necessary authorization levels. To address this issue, I carried out the following tasks:
