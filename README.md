@@ -4,7 +4,7 @@ Using Linux commands in Bash Shell to manage users.
 # Glossary:
 1. [Checking File and Directory Details](#checking_file_and_directory_details)
 2. [Describing the Permission Strings](#describing_the_permission_strings)
-3. [Changing File Permissions](#Changing_File_Persmissions)
+3. [Changing File Permissions](#Changing_File_Permissions)
 4. [Changing File Permissions on Hidden Files](#changing_file_permissions_on_hidden_files)
 5. [Changing Directory Permissions](#changing_directory_permissions)
 6. [Summary](#summary)
@@ -30,7 +30,7 @@ The first column shown in the screenshot displays a 10-character string that rep
 
 As an example, we can take a look at the permissions for "project_r.txt", which are "-rw-rw-r--". The first character is a hyphen so we can tell this is a file and not a directory. The first three characters are "rw-", this means the user has read and write permissions and the same is true for group because its permissions are also "rw-". Finally, we see that other has only read permissions because the 8th-10th characters are "r–-". 
 
-# Changing_File_Persmissions:
+# Changing_File_Permissions:
 
 My organization determined that other should not have write access to any files. To make these changes I will have to remove their write access from "project_k.txt". The following screenshot shows my actions:
 
@@ -38,7 +38,7 @@ My organization determined that other should not have write access to any files.
 
 I utilized the "chmod" command to change the permissions and then checked my work using the "ls -la" from before.
 
-# Changing_File_Persmissions_on_Hidden_Files:
+# Changing_File_Permissions_on_Hidden_Files:
 
 The research team at my organization recently archived "project_x.txt". They decided that no one should have write access to this project, but the user and group should have read access enabled. The following screenshot shows my actions:
 
@@ -46,7 +46,7 @@ The research team at my organization recently archived "project_x.txt". They dec
 
 I can tell that ".project_x.txt" is a hidden file because it begins with a period (.). In this case, I removed write permission from user and group while enabling read permission to the group. 
 
-# Changing_Directory_Persmissions:
+# Changing_Directory_Permissions:
 
 Finally, my organization only wants the "researcher2" user to have access to the "drafts" directory and its contents. Meaning, no one other than "researcher2" should have execute permissions. The following screenshot shows my actions:
 
