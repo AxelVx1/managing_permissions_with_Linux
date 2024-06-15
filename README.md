@@ -4,7 +4,7 @@ Using Linux commands in Bash Shell to manage users.
 # Glossary:
 1. [Checking File and Directory Details](#checking_file_and_directory_details)
 2. [Describing the Permission Strings](#describing_the_permission_strings)
-3. [Changing File Permissions](#changing_file_permissions)
+3. [Changing File Permissions](#Changing_File_Persmissions)
 4. [Changing File Permissions on Hidden Files](#changing_file_permissions_on_hidden_files)
 5. [Changing Directory Permissions](#changing_directory_permissions)
 6. [Summary](#summary)
